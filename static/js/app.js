@@ -35,24 +35,4 @@ submit.on("click", function() {
       row.append("td").text(sighting.durationMinutes);
       row.append("td").text(sighting.comments);
 });
-
-//   // BONUS: Calculate summary statistics for the age field of the filtered data
-
-//   // First, create an array with just the age values
-//   var ages = filteredData.map(person => person.age);
-
-//   // Next, use math.js to calculate the mean, median, mode, var, and std of the ages
-//   var mean = math.mean(ages);
-//   var median = math.median(ages);
-//   var mode = math.mode(ages);
-//   var variance = math.var(ages);
-//   var standardDeviation = math.std(ages);
-
-//   // Finally, add the summary stats to the `ul` tag
-//   d3.select(".summary")
-//     .append("li").text(`Mean: ${mean}`)
-//     .append("li").text(`Median: ${median}`)
-//     .append("li").text(`Mode: ${mode}`)
-//     .append("li").text(`Variance: ${variance}`)
-//     .append("li").text(`Standard Deviation: ${standardDeviation}`);
 });
